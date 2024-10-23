@@ -1,19 +1,29 @@
 @charset "UTF-8";
 
+:root{
+    --cor01:#87AEAA;
+    --cor02:#182825;
+    --cor03:#BAD9D5;
+    --cor04:#0E201E;
+    --cor05:#165049;
+    --cor06:#00332D;
+}
+
 body{
     background-color: rgb(190, 246, 243);
     margin: 0px;
 }
 
 header{
-    background-color: rgb(22, 106, 233);
+    background-color: var(--cor05);
     width: auto;
     height: 300px;
 }
 header h1 {
-    margin: 0px;
+    
 }
 header > div {
+    width: 50%;
     display: inline-block;
 }
 
