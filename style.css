@@ -20,11 +20,8 @@ header{
     height: 300px;
 }
 header h1 {
-    
+    width: auto;
 }
 header > div {
-    width: 50%;
-    display: inline-block;
+    display: inline-block; 
 }
-
-
