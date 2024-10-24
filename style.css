@@ -23,5 +23,7 @@ header h1 {
     width: auto;
 }
 header > div {
-    display: inline-block; 
+    display: inline-block;
+    width: 500px;
+    height: 300px;
 }
