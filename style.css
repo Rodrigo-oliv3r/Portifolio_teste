@@ -8,23 +8,25 @@
     --cor05:#165049;
     --cor06:#00332D;
 }
-
 body{
-    background-color: rgb(190, 246, 243);
-    margin: 0px;
+    background-color: var(--cor03);
+    background-size: 100%;
 }
-
 header{
     background-color: var(--cor05);
-    width: auto;
+
+}
+
+#nome{
+    position: relative;
+    right: -2%;
+    bottom: 50%;
     height: 300px;
 }
-header h1 {
-    
-}
-header > div {
-    display: inline-block;
-    border: solid black;
-    width: 500px;
-    height: 300px;
+
+#perfil{
+
+    position: absolute;
+    left: 55%;
+    top: 50%;
 }
